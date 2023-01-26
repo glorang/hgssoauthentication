@@ -37,7 +37,7 @@ Password for username@DOMAIN.COM:
 ktutil:  write_kt username.keytab
 ```
 - Exit ktutil by pressing `CTRL + D`
-- Update `~/.hgrc` and add [krb] section 
+- Update `~/.hgrc` and add `[krb]` section 
 ```
 [extensions]
 hgext.kerberos=~/hgssoauthentication.py
